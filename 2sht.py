@@ -1,6 +1,6 @@
 #!user/bin/env python
 
-#INITIAL AUTHOR: Erin Osler (2018, CU-ITk)
+#INITIAL AUTHOR: Keegan Osler (2018, CU-ITk)
 #this code activates the serial connection between the arduino and the raspberry pi and dumps recorded data into the MySQL database
 #initially, the arduino is connected in serial with the correct port and baudrate
 #data for date, time, and temperature and humidity values from each of two the two SHT's is read in
