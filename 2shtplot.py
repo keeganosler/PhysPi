@@ -1,6 +1,6 @@
 #!user/bin/env python
 
-#INITIAL AUTHORS: Erin Osler and James Botte (2018, CU-ITk)
+#INITIAL AUTHORS: Keegan Osler and James Botte (2018, CU-ITk)
 #this will extract the last hours data into a file called log.dat which will then be used to plot the temperature and humidity over time
 
 import MySQLdb as mdb
