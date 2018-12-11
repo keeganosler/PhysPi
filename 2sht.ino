@@ -1,6 +1,6 @@
 #include <Sensirion.h>
 
-//INITIAL AUTHOR: Erin Osler (2018, CU-ITK)
+//INITIAL AUTHOR: Keegan Osler (2018, CU-ITK)
 //This code is uploaded to the arduino and will record temperature and humidity data from two SHT75 sensors connected according to the clockpins below (dewpoint not used)
 
 const uint8_t dataPin_1 = 10;
