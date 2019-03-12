@@ -24,5 +24,10 @@ This system employs the use of the following hardware in a very simple setup:
 
 ## Software and System
 
+## Future Work and Extensions
+
+The PhysPi has tremendous potential in a laboratory setting. Future goals include to expand the system to have more sensors attached and potentially to organize the sensors in a circular form around an area of interest for optimal measurements.  Implementing the use of multiple Raspberry Pi/Arduino setups would also allow for measurements to be taken across the lab with great accuracy.
+
+The scope of my work did not include managing the data stored in the SQL database nor the usage of the data taken.  In the future, it would be wise to destroy some or all data from before a previous date (to be determined by the research staff) and mathematical functionality could possibly be created to calibrate the existing lab software to adjust to the data recorded by the PhysPi.
 
 ## Images and Screenshots
