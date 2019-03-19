@@ -1,6 +1,6 @@
 # PhysPi
 
-Code for PhysPi Laboratory Environmental Monitoring System, constructed as my fourth year honours project in physics at Carleton University (Ottawa ON) under the supervision of Dr. Thomas Koffas and the CU-ITk research team.
+This is the PhysPi Laboratory Environmental Monitoring System, constructed as my fourth year honours project in physics at Carleton University (Ottawa ON) under the supervision of Dr. Thomas Koffas and the CU-ITk research team.
 
 This is the repo for the project as it stood in April 2018 when I completed my time on the research team. The project is still in use and has been modified by other students and researchers.
 
