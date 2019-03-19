@@ -34,6 +34,12 @@ The data being interpreted by the SHT75 sensors consists of values of temperatur
 
 On the Raspberry Pi, the data being sent via serial connection is analyzed using 2sht.py.  This program reads in and formats the data then posts the data to the existing MySQL database.
 
+### Data Visualization
+
+Once the python file has pushed the dat ato the database, a file called 2shtplot.py compiles the last hours' worth of data to be plotted and shown for visualization purposes.
+
+Once the last hours' data has been logged, log1.plt and log2.plt plot the last hours' temperature and humidity data against time for each of the two sensors.
+
 ## Future Work and Extensions
 
 The PhysPi has tremendous potential in a laboratory setting. Future goals include to expand the system to have more sensors attached and potentially to organize the sensors in a circular form around an area of interest for optimal measurements.  Implementing the use of multiple Raspberry Pi/Arduino setups would also allow for measurements to be taken across the lab with great accuracy.
