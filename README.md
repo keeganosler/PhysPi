@@ -28,7 +28,7 @@ This system employs the use of multiple programming languages and technology.
 
 ### Data Read-In
 
-The data being interpreted by the SHT75 sensors consists of values of temperature (in degrees celsius) and humidity.
+The data being interpreted by the SHT75 sensors consists of values of temperature (in degrees celsius) and humidity. The sensors also record a measure of dewpoint, but this is not being used for our purposes.  Initially, the data is set up to record using programming on the Arduino board (2sht.ino) and this is sent to the Rasperry Pi via serial connection.
 
 ## Future Work and Extensions
 
