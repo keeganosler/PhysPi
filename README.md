@@ -24,7 +24,7 @@ This system employs the use of the following hardware in a very simple setup:
 
 ## Software and System
 
-This system employs the use of multiple programming languages and technology.
+This system employs the use of multiple programming languages and technology.  A bash script called run.sh is executed on Raspberry Pi startup to run the entire program automatically when the system is powered on.
 
 ### Data Read-In
 
@@ -38,7 +38,7 @@ On the Raspberry Pi, the data being sent via serial connection is analyzed using
 
 Once the python file has pushed the dat ato the database, a file called 2shtplot.py compiles the last hours' worth of data to be plotted and shown for visualization purposes.
 
-Once the last hours' data has been logged, log1.plt and log2.plt plot the last hours' temperature and humidity data against time for each of the two sensors.
+Once the last hours' data has been logged, log1.plt and log2.plt use GnuPlot to plot the last hours' temperature and humidity data against time for each of the two sensors.
 
 ## Future Work and Extensions
 
