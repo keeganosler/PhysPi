@@ -30,9 +30,15 @@ This system employs the use of multiple programming languages and technology.
 
 The data being interpreted by the SHT75 sensors consists of values of temperature (in degrees celsius) and humidity. The sensors also record a measure of dewpoint, but this is not being used for our purposes.  Initially, the data is set up to record using programming on the Arduino board (2sht.ino) and this is sent to the Rasperry Pi via serial connection.
 
+### Storing Data
+
+On the Raspberry Pi, the data being sent via serial connection is analyzed using 2sht.py.  This program reads in and formats the data then posts the data to the existing MySQL database.
+
 ## Future Work and Extensions
 
 The PhysPi has tremendous potential in a laboratory setting. Future goals include to expand the system to have more sensors attached and potentially to organize the sensors in a circular form around an area of interest for optimal measurements.  Implementing the use of multiple Raspberry Pi/Arduino setups would also allow for measurements to be taken across the lab with great accuracy.
+
+At the time of this project the SHT75 sensors were the sensors available, however Sensiron plans to discontinue these sensors.  In the future it would be wise to update the PhysPi system to another type of sensor.
 
 The scope of my work did not include managing the data stored in the SQL database nor the usage of the data taken.  In the future, it would be wise to destroy some or all data from before a previous date (to be determined by the research staff) and mathematical functionality could possibly be created to calibrate the existing lab software to adjust to the data recorded by the PhysPi.
 
