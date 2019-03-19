@@ -4,7 +4,7 @@ Code for PhysPi Laboratory Environmental Monitoring System, constructed as my fo
 
 This is the repo for the project as it stood in April 2018 when I completed my time on the research team. The project is still in use and has been modified by other students and researchers.
 
-Please note that this ReadMe provides only a basic summary of the project for at-a-glance reading.  For a very in depth explanantion of the project and the underlying physics, please refer to the thesis write up in the "Thesis/Documentation" folder.
+Please note that this ReadMe provides only a basic summary of the project for at-a-glance reading.  For a very in depth explanantion of the project and the underlying physics, please refer to the thesis write up in the "Documentation" folder.
 
 ## Background
 
@@ -23,6 +23,12 @@ This system employs the use of the following hardware in a very simple setup:
   * HDMI monitor and adapter
 
 ## Software and System
+
+This system employs the use of multiple programming languages and technology.
+
+### Data Read-In
+
+The data being interpreted by the SHT75 sensors consists of values of temperature (in degrees celsius) and humidity.
 
 ## Future Work and Extensions
 
