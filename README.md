@@ -40,6 +40,8 @@ Once the python file has pushed the dat ato the database, a file called 2shtplot
 
 Once the last hours' data has been logged, log1.plt and log2.plt use GnuPlot to plot the last hours' temperature and humidity data against time for each of the two sensors.
 
+The plots are displayed on Chrome localhost using PHP and HTML to create a basic webpage for viewing purposes (data is displayed as an HTML table, plots are imported as images).
+
 ## Future Work and Extensions
 
 The PhysPi has tremendous potential in a laboratory setting. Future goals include to expand the system to have more sensors attached and potentially to organize the sensors in a circular form around an area of interest for optimal measurements.  Implementing the use of multiple Raspberry Pi/Arduino setups would also allow for measurements to be taken across the lab with great accuracy.
