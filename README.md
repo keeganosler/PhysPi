@@ -55,3 +55,7 @@ The scope of my work did not include managing the data stored in the SQL databas
 This is a picture of the entire system in use at Carleton University as of April 2018: 
 
 ![screenshot](https://github.com/keeganosler/PhysPi/blob/master/documentation/imgs/fullsystemrep.JPG)
+
+This is a picture of the SHT sensors:
+
+![screenshot](https://github.com/keeganosler/PhysPi/blob/master/documentation/imgs/2shtrep.JPG)
